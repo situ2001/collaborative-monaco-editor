@@ -4,5 +4,45 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+#users {
+  text-align: center;
+}
+
+#currentEditor {
+  text-align: center;
+}
+
+#docs {
+  display: flex;
+  justify-content: center;
+}
+
+#docs > button {
+  margin: 4px 2px;
+}
+
+#editor {
+  width: 100%;
+  height: 600px;
+}
+.yRemoteSelection {
+  background-color: rgb(250, 129, 0, 0.5);
+}
+.yRemoteSelectionHead {
+  position: absolute;
+  border-left: orange solid 2px;
+  border-top: orange solid 2px;
+  border-bottom: orange solid 2px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.yRemoteSelectionHead::after {
+  position: absolute;
+  content: " ";
+  border: 3px solid orange;
+  border-radius: 4px;
+  left: -4px;
+  top: -5px;
 }
